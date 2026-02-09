@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-color: beige;
+}
+
+div {
+  margin: 20px;
+}
+
+button {
+  border-radius: 10%;
+}
+
+.current-tasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.current-tasks>button {
+  height: fit-content;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.container {
+  border: 1px solid #ddd;
+  height: fit-content;
+  padding: 3%;
+  background-color: salmon;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+h1 {
+  color: beige;
+  font-weight: 1000;
+}
+
+h2 {
+  color: beige;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
