@@ -1,0 +1,132 @@
+.main-container {
+     background-color: #222831;
+     color: #00ADB5;
+}
+
+.learn-about-us {
+     background-color: #393E46;
+}
+
+.projects>div {
+     background-color: #393E46;
+}
+
+.header-heading {
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+}
+
+.heading-container {
+     background-image: url('./images/patrick-tomasso-YDuqf7PQfU0-unsplash.jpg');
+     background-size: cover;
+     width: 100%;
+     height: 80vh;
+}
+
+.btn-outline-secondary {
+     --bs-btn-color: #eeeeee;
+}
+
+.add-color-secondary {
+     color: #00ADB5;
+}
+
+
+.logo {
+     display: none;
+}
+
+.header-h2 {
+     color: rgb(193, 190, 190);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+.header-h1 {
+     color: #EEEEEE;
+     text-align: left;
+     max-width: 300px;
+}
+
+
+.nav-link {
+     color: #00ADB5;
+}
+
+.add-color-tertiary {
+     color: #EEEEEE;
+     opacity: 1;
+}
+
+.projects {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.card-header {
+     background: linear-gradient(45deg, #222831, #393E46);
+     border-bottom: none;
+}
+
+svg {
+     width: 100px;
+     height: 100px;
+}
+
+/*
+.projects div{
+     max-width: 300px;
+     max-height: 300px;
+}
+
+.projects img{
+     width: 200px;
+}
+*/
+.add-color {
+     background-color: #393E46;
+}
+
+/*
+.prevent-image-overflow{
+     max-width:350px;
+}
+*/
+.nav-pills {
+     --bs-nav-pills-link-active-bg: #EEEEEE;
+}
+
+.nav-pills .nav-link.active {
+     color: #393E46;
+}
+
+@media (max-width:600px) {
+
+     .nav {
+          float: none;
+          width: 100%;
+     }
+
+     .header-h1 {
+          font-size: 27px;
+     }
+
+     .header-h2 {
+          font-size: 15px;
+     }
+
+     .projects {
+          flex-direction: column;
+
+     }
+
+.heading-container{
+     height: 70vh;
+}
+
+
+}
+
